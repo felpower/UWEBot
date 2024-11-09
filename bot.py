@@ -3,8 +3,11 @@ import aiohttp
 import discord
 from discord import app_commands
 from discord.ext import commands
-
+from json import loads
+from pathlib import Path
 from webserver import keep_alive
+from os import environ
+from dotenv import load_dotenv
 
 intents = discord.Intents.default()
 intents.guilds = True
@@ -12,8 +15,9 @@ intents.guild_messages = True
 intents.message_content = True
 intents.members = True
 
-TOKEN = "MTMwNDQzNDk2Nzc5OTE0MDM3NA.GQG4-8.lB_nmOzFtST_k92jHMJzlkEzhZZjZiOJ-m4G6I"
+load_dotenv()
 
+TOKEN = environ["TOKEN"]
 bot = commands.Bot(command_prefix="!", intents=intents)  # Keep command_prefix as "!" to prevent initialization error
 
 @bot.event
