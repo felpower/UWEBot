@@ -75,6 +75,12 @@ async def motivation(interaction: discord.Interaction):
         "💪 Remember, Emperors, champions are made not just on the field, but in every workout, every practice, every day. Let's bring that Emperor spirit! 🏈🔥"
     )
 
+@bot.tree.command(name="tech", description="This is the tech command")
+async def motivation(interaction: discord.Interaction):
+    await interaction.response.send_message(
+        "💪 This is the tech command 🏈🔥"
+    )
+
 @bot.tree.command(name="orga", description="Who is responsible for what in the organization?")
 async def motivation(interaction: discord.Interaction):
     await interaction.response.send_message(
