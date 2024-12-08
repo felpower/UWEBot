@@ -47,7 +47,7 @@ async def on_ready():
         print(f"Error syncing commands: {e}")
 
 @bot.tree.command(name="team", description="Displays information about the Uni Wien Emperors Team")
-async def team_info(interaction: discord.Interaction):
+async def team(interaction: discord.Interaction):
     await interaction.response.send_message(
         "🏈 Welcome to the Uni Wien Emperors Discord! We are the University of Vienna's American Football Team. Let's dominate the field! 🏆"
     )
@@ -76,13 +76,13 @@ async def motivation(interaction: discord.Interaction):
     )
 
 @bot.tree.command(name="tech", description="This is the tech command")
-async def motivation(interaction: discord.Interaction):
+async def tech(interaction: discord.Interaction):
     await interaction.response.send_message(
         "💪 This is the tech command 🏈🔥"
     )
 
 @bot.tree.command(name="orga", description="Who is responsible for what in the organization?")
-async def motivation(interaction: discord.Interaction):
+async def orga(interaction: discord.Interaction):
     await interaction.response.send_message(
         '''💪 Präsident
 Jimmy und Johann (Co.)
