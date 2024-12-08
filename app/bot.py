@@ -83,7 +83,8 @@ async def tech(interaction: discord.Interaction):
 
 @bot.tree.command(name="orga", description="Who is responsible for what in the organization?")
 async def orga(interaction: discord.Interaction):
-    await interaction.response.send_message(
+    try:
+        await interaction.response.send_message(
         '''💪 Präsident
 Jimmy und Johann (Co.)
 Hauptverantwortung für die Leitung und Koordination des Teams.
@@ -144,6 +145,10 @@ Erstellung des Jahresberichts und Jahresvoranschlags (zusammen mit anderen Berei
 Unterstützung bei der Planung von Camps und Buchungen
 🏈🔥'''
     )
+    except Exception as e:
+        # Log the exception and send an error message
+        print(f"Error in orga command: {e}")
+        await interaction.response.send_message("An error occurred while processing the command.")
 
 @bot.tree.command(name="football", description="Get a motivational football quote")
 async def random_quote(interaction: discord.Interaction):
