@@ -84,55 +84,65 @@ async def motivation(interaction: discord.Interaction):
 @bot.tree.command(name="orga", description="Who is responsible for what in the organization?")
 async def motivation(interaction: discord.Interaction):
     await interaction.response.send_message(
-        '''💪 Präsident:
+        '''💪 Präsident
 Jimmy und Johann (Co.)
 Hauptverantwortung für die Leitung und Koordination des Teams.
-
-Finanzen:
+_________________________________________________________________________________________
+💰 Finanzen
 Verantwortlicher: Patrick Sommerauer
-Jahresbericht und Jahresvoranschlag erstellen.
-Einzahlungen und Auszahlungen überprüfen und tätigen.
-SEPA-Lastschriften erstellen und austeilen.
 
-Coaching:
+Jahresbericht und Jahresvoranschlag erstellen
+Einzahlungen und Auszahlungen überprüfen und tätigen
+SEPA-Lastschriften erstellen und austeilen
+_________________________________________________________________________________________
+📋 Coaching
 Verantwortlicher: Flo Sikora
 Helfer: Stefan Gamperl
-Trainingspläne erstellen und Coaches organisieren.
-Hudl-Management und Teilnahme an ACSL-Sitzungen.
 
-Administration:
+Trainingspläne erstellen und Coaches organisieren
+Hudl-Management
+Teilnahme an ACSL-Sitzungen
+_________________________________________________________________________________________
+🖋️ Administration
 Verantwortlicher: Noch offen (???)
-Förderungen erschließen.
-Weihnachtsfeier organisieren.
-Stadlauer Kontakt pflegen und Vertragsverlängerungen bearbeiten.
-Spielerpässe überprüfen und Raumbuchungen in Stadlau organisieren.
 
-Sportliche Leitung:
+Förderungen erschließen
+Weihnachtsfeier organisieren
+Stadlauer Kontakt pflegen und Vertragsverlängerungen bearbeiten
+Spielerpässe überprüfen
+Raumbuchungen in Stadlau organisieren
+_________________________________________________________________________________________
+🏋️ Sportliche Leitung
 Verantwortlicher: Lukas Steiner
-Camps planen und buchen.
-Tryouts organisieren.
-Rookie-Leitfaden erstellen und aktualisieren.
-Testspiele organisieren.
-Coaching-Qualitätsüberwachung (Feedbackbögen erstellen, auswerten und Rückmeldung geben).
 
-Equipment:
+Camps planen und buchen
+Tryouts organisieren
+Rookie-Leitfaden erstellen und aktualisieren
+Testspiele organisieren
+Coaching-Qualitätsüberwachung (Feedbackbögen erstellen, auswerten und Rückmeldung geben)
+_________________________________________________________________________________________
+⚙️ Equipment
 Verantwortlicher: Noch offen (???)
-Gameday-Organisation.
-Inventar überprüfen und Equipment bestellen.
-Jersey-Vergabe und -Überwachung.
-Jersey-Bestellungen planen.
-Equipment überprüfen und pflegen, inklusive Transportplanung.
 
-Social Media:
+Gameday-Organisation
+Inventar überprüfen und Equipment bestellen
+Jersey-Vergabe und -Überwachung
+Jersey-Bestellungen planen
+Equipment überprüfen und pflegen (inklusive Transportplanung)
+_________________________________________________________________________________________
+🌐 Social Media
 Verantwortlicher: Martin
-Beiträge erstellen und Informationen nach außen kommunizieren.
-Instagram-Anfragen beantworten.
-Media-Days planen.
 
-Allgemeines:
+Beiträge erstellen und Informationen nach außen kommunizieren
+Instagram-Anfragen beantworten
+Media-Days planen
+_________________________________________________________________________________________
+📂 Allgemeines
 Verantwortlicher: Jimmy
-Erstellung des Jahresberichts und Jahresvoranschlags (zusammen mit anderen Bereichen).
-Unterstützung bei der Planung von Camps und Buchungen. 🏈🔥'''
+
+Erstellung des Jahresberichts und Jahresvoranschlags (zusammen mit anderen Bereichen)
+Unterstützung bei der Planung von Camps und Buchungen
+🏈🔥'''
     )
 
 @bot.tree.command(name="football", description="Get a motivational football quote")
