@@ -85,14 +85,13 @@ async def tech(interaction: discord.Interaction):
 async def orga(interaction: discord.Interaction):
     try:
         await interaction.response.send_message(
-        '''💪 Präsident
-Jimmy und Johann (Co.)
-Hauptverantwortung für die Leitung und Koordination des Teams.
+        '''💪 Präsidenten
+Jimmy und Johann
 _________________________________________________________________________________________
 💰 Finanzen
 Verantwortlicher: Patrick Sommerauer
 
-Jahresbericht und Jahresvoranschlag erstellen
+Jahresbericht/Jahresvoranschlag erstellen
 Einzahlungen und Auszahlungen überprüfen und tätigen
 SEPA-Lastschriften erstellen und austeilen
 _________________________________________________________________________________________
@@ -105,7 +104,7 @@ Hudl-Management
 Teilnahme an ACSL-Sitzungen
 _________________________________________________________________________________________
 🖋️ Administration
-Verantwortlicher: Noch offen (???)
+Verantwortlicher: offen
 
 Förderungen erschließen
 Weihnachtsfeier organisieren
@@ -118,18 +117,18 @@ Verantwortlicher: Lukas Steiner
 
 Camps planen und buchen
 Tryouts organisieren
-Rookie-Leitfaden erstellen und aktualisieren
+Rookie-Leitfaden
 Testspiele organisieren
-Coaching-Qualitätsüberwachung (Feedbackbögen erstellen, auswerten und Rückmeldung geben)
+Coaching-Qualitätsüberwachung
 _________________________________________________________________________________________
 ⚙️ Equipment
-Verantwortlicher: Noch offen (???)
+Verantwortlicher: offen
 
-Gameday-Organisation
+Gameday-Orga
 Inventar überprüfen und Equipment bestellen
 Jersey-Vergabe und -Überwachung
 Jersey-Bestellungen planen
-Equipment überprüfen und pflegen (inklusive Transportplanung)
+Equipment überprüfen und pflegen
 _________________________________________________________________________________________
 🌐 Social Media
 Verantwortlicher: Martin
@@ -141,7 +140,7 @@ ________________________________________________________________________________
 📂 Allgemeines
 Verantwortlicher: Jimmy
 
-Erstellung des Jahresberichts und Jahresvoranschlags (zusammen mit anderen Bereichen)
+Erstellung des Jahresberichts und Jahresvoranschlags
 Unterstützung bei der Planung von Camps und Buchungen
 🏈🔥'''
     )
