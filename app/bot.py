@@ -46,8 +46,6 @@ async def on_ready():
     except Exception as e:
         print(f"Error syncing commands: {e}")
 
-    check_instagram.start()  # Start the Instagram checking task
-
 @bot.tree.command(name="team", description="Displays information about the Uni Wien Emperors Team")
 async def team_info(interaction: discord.Interaction):
     await interaction.response.send_message(
